@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const axios = require('axios');
+const axios = require('..\\node_modules\\axios\\dist\\node\\axios.cjs');
 const pngToIco = require('png-to-ico');
 
 const url = process.argv[2];
